@@ -43,3 +43,11 @@ section div img:hover {
         grid-template-columns: 1fr 1fr;
     } 
  }
+ nav ul { 
+    display:flex ;
+ }
+nav ul li { 
+    padding: 0px;
+    margin: 0px 10px;
+    list-style: none;
+}
