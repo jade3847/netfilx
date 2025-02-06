@@ -1,0 +1,45 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#Banniere {
+    width: 100%;
+} 
+section div img{
+    height: 300px;
+    margin: 10px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+section div {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+#first-img {
+    margin-left: 1000px;
+}
+section div img:hover {
+    scale: 1.5;
+}
+#film {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#film img {
+    width: 100%;
+    scale: 1;
+    transition: scale 2s;
+}
+#film img:hover{
+    scale: 1.2;
+}
+@media (max-width: 600px) { 
+    #film {
+        grid-template-columns: 1fr 1fr;
+    } 
+ }
